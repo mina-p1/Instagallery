@@ -1,0 +1,32 @@
+<!-- By Peter Mina -->
+
+@model IEnumerable<Instagallery.Models.PhotoModel>
+
+<div class="gallery-grid">
+    @foreach (var photo in Model)
+    {
+        <div class="photo-item">
+            <a href="@Url.Action("Lightbox", "PhotoView", new { id = photo.Id })">
+                <img src="@photo.Url" alt="@photo.Title" class="photo-thumbnail" />
+            </a>
+            <h3>@photo.Title</h3>
+            <p>@photo.Description</p>
+        </div>
+    }
+</div>
+
+<style>
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 15px;
+    }
+    .photo-item {
+        text-align: center;
+    }
+    .photo-thumbnail {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+</style>
