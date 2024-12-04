@@ -18,6 +18,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery/Views/Admin/ApproveReject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQXBwcm92ZVJlamVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery/Views/Gallery/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FsbGVyeS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery/Views/Gallery/Lightbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FsbGVyeS9MaWdodGJveC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery/Views/Gallery/Upload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2FsbGVyeS9VcGxvYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,12 +46,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmlsZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery/Views/_ViewImports.cshtml]
