@@ -1,0 +1,18 @@
+@using Instagallery.Models
+@model PhotoModel
+@{
+    ViewData["Title"] = "Photo Viewer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="lightbox-container">
+    <div class="lightbox-content">
+        <img src="@Model.Url" alt="@Model.Title" class="lightbox-image" />
+        <h2>@Model.Title</h2>
+        <p>@Model.Description</p>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="/js/lightbox.js"></script>
+}
