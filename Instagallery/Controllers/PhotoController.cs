@@ -1,30 +1,23 @@
-using Microsoft.AspNetCore.Mvc;
+using Instagallery.Data;
 using Instagallery.Models;
-using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 
 namespace Instagallery.Controllers
 {
     public class PhotoController : Controller
     {
-        public IActionResult Index()
-        {
-            // Dummy data for testing
-            var photos = new List<PhotoModel>
-            {
-                new PhotoModel { Id = 1, ThumbnailUrl = "/images/photo1_thumb.jpg", Title = "Photo 1" },
-                new PhotoModel { Id = 2, ThumbnailUrl = "/images/photo2_thumb.jpg", Title = "Photo 2" }
-            };
+        private readonly ApplicationDbContext _context;
 
-            // Explicitly specify the path to Gallery/Index.cshtml
-            return View("~/Views/Gallery/Index.cshtml", photos);
+        public PhotoController(ApplicationDbContext context)
+        {
+            _context = context;
         }
 
-        public IActionResult Details(int id)
+        public IActionResult Index()
         {
-            // Dummy data for testing
-            var photo = new PhotoModel { Id = id, Url = "/images/photo" + id + ".jpg", Title = "Photo " + id, Description = "Description of Photo " + id };
-
-            return View(photo); // Pass the photo to the view
+            var photos = _context.Photos.ToList();
+            return View(photos); // Pass the database photos to the view
         }
     }
 }
