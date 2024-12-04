@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Instagallery")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c480a0b14d35567f36d201bff01fef4cf96f5038")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9cc067b4900cfe67a9488c3199debe7ae4953df2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Instagallery")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Instagallery")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
