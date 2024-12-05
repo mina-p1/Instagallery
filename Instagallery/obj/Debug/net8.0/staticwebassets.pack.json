@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery/wwwroot/images/photos/photo1.jpg",
+      "PackagePath": "staticwebassets/images/photos/photo1.jpg"
+    },
+    {
+      "Id": "/Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery/wwwroot/images/photos/photo2.jpg",
+      "PackagePath": "staticwebassets/images/photos/photo2.jpg"
+    },
+    {
+      "Id": "/Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery/wwwroot/images/photos/photo3.jpg",
+      "PackagePath": "staticwebassets/images/photos/photo3.jpg"
+    },
+    {
+      "Id": "/Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery/wwwroot/images/photos/photo4.jpg",
+      "PackagePath": "staticwebassets/images/photos/photo4.jpg"
+    },
+    {
+      "Id": "/Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery/wwwroot/images/photos/photo5.jpg",
+      "PackagePath": "staticwebassets/images/photos/photo5.jpg"
+    },
+    {
       "Id": "/Users/petermina/Desktop/Enterprise Software Systems/Projects/Instagallery/Instagallery/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
