@@ -1,42 +1,27 @@
-@model IEnumerable<dynamic>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photo Gallery</title>
-    <link rel="stylesheet" href="/css/site.css"> <!-- Link to custom CSS -->
-    <script defer src="/js/site.js"></script> <!-- Link to custom JavaScript -->
-</head>
-<body>
-    <div class="gallery-container">
-        @foreach (var photo in Model)
-        {
-            <div class="gallery-item" data-id="@photo.Id" data-title="@photo.Title">
-                <img src="@photo.Url" alt="@photo.Title" />
-            </div>
-        }
-    </div>
-
-    <div id="photoModal" class="modal" style="display: none;">
-  <div class="modal-content">
-    <button id="prevPhoto" class="nav-button">❮</button>
-    <div class="modal-body">
-      <img id="modalImage" src="" alt="" />
-    </div>
-    <div class="modal-info">
-      <h2 id="photoTitle">Photo Title</h2>
-      <p id="photoDescription">Photo description goes here.</p>
-    </div>
-    <button id="nextPhoto" class="nav-button">❯</button>
-    <span id="closeModal">&times;</span>
-  </div>
+<div class="gallery-container">
+    <!-- Pre-existing gallery items -->
+    @foreach (var photo in Model)
+    {
+        <div class="gallery-item" data-id="@photo.Id" data-title="@photo.Title" data-description="@photo.Description">
+            <img src="@photo.Url" alt="@photo.Title" />
+        </div>
+    }
 </div>
 
 
 
-
-
-</body>
-</html>
+<!-- Modal -->
+<div id="photoModal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <button id="prevPhoto" class="nav-button">❮</button>
+        <div class="modal-body">
+            <img id="modalImage" src="" alt="" />
+        </div>
+        <div class="modal-info">
+            <h2 id="photoTitle">Photo Title</h2>
+            <p id="photoDescription">Photo description goes here.</p>
+        </div>
+        <button id="nextPhoto" class="nav-button">❯</button>
+        <span id="closeModal">&times;</span>
+    </div>
+</div>
